@@ -150,4 +150,143 @@ export const ExperienceData = [
   },
 ];
 
+export const WebProjects = [
+  {
+    id: 1,
+    projectName: "Height Comparison",
+    projectImage: "/projects/height_comparison.png",
+    isCompleted: true,
+    liveLink: "https://www.heightcomparison.com/",
+    usedTech: ["VueJS", "NuxtJS", "VueX"],
+    description:
+      "Redesign development of home page to make clean user interface and responsive design which allow users to compare the heights of people and objects. You can input heights in feet or centimeters, and the tool will display them side-by-side for comparison. And development of it's  new feature, height calculator which allow users to predict the child height based on parent detail.",
+  },
+  {
+    id: 2,
+    projectName: "Vehicel Rental",
+    projectImage: "/projects/vehicel_rental.png",
+    liveLink: "https://vehicle-rental-orpin.vercel.app/",
+    usedTech: ["NextJs", "ReactJS", "TailwindCSS"],
+    isCompleted: false,
+    description:
+      "Frontend developement of this website which allow user to book a car. It also allow user to search for cars at their ",
+  },
+  {
+    id: 3,
+    projectName: "Unscrambler",
+    projectImage: "/projects/unscrambler.png",
+    liveLink: "https://unscrambler.org/",
+    usedTech: ["HTML", "CSS", "JavaScript"],
+    description:
+      "Frontend developement of this website which  Unscrambler any word into multiple valid words of different length.",
+  },
+  {
+    id: 4,
+    projectName: "Ghar link",
+    projectImage: "/projects/gharlink.png",
+    isCompleted: true,
+    liveLink: "",
+    usedTech: ["VueJS", "NuxtJS", "TailwindCSS"],
+    description:
+      "This e-commerce website, showcases a variety of products and services, including skilled labor, tools and machinery, and second-hand goods. It also allows users to rent or buy/sell houses and land. ",
+  },
+
+  {
+    id: 5,
+    projectName: "Byalarlink - landing page",
+    projectImage: "/projects/byarparlink.png",
+    liveLink: "https://byaparlink.com/",
+    usedTech: ["HTML", "CSS", "TailwindCSS", "JavaScript"],
+    description:
+      "Landing page for e-commerce mobile application which showcase the feature of mobile app and give the overview of app.",
+  },
+  {
+    id: 6,
+    projectName: "Kinu shopping app - landing page",
+    projectImage: "/projects/kinu.png",
+    liveLink: "https://kinu.com.np/",
+    usedTech: ["Nuxtjs", "VueJS", "TailwindCSS"],
+    description:
+      "Landing page for e-commerce mobile application which showcase the feature of mobile app and give the overview of app.It also have share feature of product from app  and product description page ",
+  },
+  {
+    id: 7,
+    projectName: "Fly over Water",
+    projectImage: "/projects/fly-over-wate.png",
+    liveLink: "https://fly-over-water.vercel.app/",
+    usedTech: ["NextJS", "ReactJS", "TailwindCSS"],
+    description: "Clone website for Learning of Nextjs, Reactjs, Tailwindcss.",
+  },
+  {
+    id: 8,
+    projectName: "Medium like blog website",
+    projectImage: "/projects/medium.png",
+    liveLink: " https://like-medium.vercel.app/",
+    usedTech: ["NextJS", "ReactJS", "TailwindCSS", "Sanity-CMS"],
+    description:
+      "Medium like website which allow posting of blog.Also allow user to like comment on the post.",
+  },
+  {
+    id: 9,
+    projectName: "Travel website",
+    projectImage: "/projects/travel.png",
+    liveLink: ": https://travel-website-wheat.vercel.app/",
+    usedTech: ["NextJS", "ReactJS", "CSS", "Mapbox"],
+    description:
+      "Medium like website which allow posting of blog.Also allow user to like comment on the post.",
+  },
+  {
+    id: 10,
+    projectName: "China Town - Restaurant Website",
+    projectImage: "/projects/china_town.png",
+    liveLink: " https://chinatowntest.netlify.app/",
+    usedTech: ["HTML", "Standalone TailwindCSS", "CSS", "JavaScript"],
+    description:
+      "Restaurant webpage design to show restaurant menu, Mobile App, and restaurant features.",
+  },
+  {
+    id: 10,
+    projectName: "Shiva Raj Badu- Portfolio",
+    projectImage: "/projects/height_comparison.png",
+    liveLink: "https://shiva-raj-badu.vercel.app/",
+    usedTech: ["NextJS", "ReactJS", "TailwindCSS"],
+    description: "Personal Portfolio",
+  },
+  {
+    id: 11,
+    projectName: "Sitemap generator",
+    projectImage: "/project/sitemap.png",
+    usedTech: ["NodeJs", "ExpressJs"],
+    description:
+      "Sitemap generator as name suggest is a tool which generate sitemap for website.",
+  },
+];
+export const MobileProject = [
+  {
+    id: 1,
+    projectName: "Kinu shopping app",
+    projectImage: "/projects/height_comparison.png",
+    usedTech: ["Flutter", "Clean Architecture", "flutter_bloc"],
+    description:
+      "Kinu is the video first e-commerce market place in Nepal. Any one can explore wide range of products through short videos. Kinu makes shopping fun and easy, empowering discovery.",
+  },
+  {
+    id: 2,
+    projectName: "Byalarlink App",
+    projectImage: "/projects/height_comparison.png",
+    usedTech: ["Flutter", "Clean Architecture", "Provider"],
+    description:
+      "Byalarlink is a e-commerce app which display the close proximity products and Restaurant details.Also allow user to order product and Food with fast delivery.",
+  },
+  {
+    id: 3,
+    projectName: "Insta-wallaper",
+    projectImage: "/projects/insta.png",
+    usedTech: ["Flutter"],
+    description:
+      "Insta-wallaper is a mobile which allow user to set mobile wallpaper directly from instagram photos.",
+  },
+  {},
+];
+
 export { dark, light };

@@ -12,7 +12,7 @@ const NavDrawer = ({
 }) => {
   return (
     <div
-      className={`md:hidden  fixed inset-0 h-screen w-screen duration-300  backdrop-blur-sm ${
+      className={`md:hidden z-20 fixed inset-0 h-screen w-screen duration-300  backdrop-blur-sm ${
         isOpen ? "translate-x-0" : "translate-x-[100%]"
       } `}
     >

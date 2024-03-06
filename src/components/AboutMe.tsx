@@ -1,7 +1,7 @@
 import React from "react";
 import Wrapper from "./Wrapper";
 import SectionTitle from "./SectionTitle";
-import MainImage from "./HeroSection/MainImage";
+import MainImage from "./MainImage";
 
 const AboutMe = () => {
   return (

@@ -1,9 +1,10 @@
 import React from "react";
 import Wrapper from "../Wrapper";
-import MainImage from "./MainImage";
+
 import { MainDescription, MainTitle } from "@/lib/data";
 
 import SocialLink from "./SocialLink";
+import MainImage from "../MainImage";
 
 const HeroSection = () => {
   return (

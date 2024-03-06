@@ -3,7 +3,7 @@ import React from "react";
 
 const SkillItem = ({ imgSrc, label }: { imgSrc: string; label: string }) => {
   return (
-    <div className="flex flex-col items-center ">
+    <div title={label} className="flex flex-col items-center ">
       <div className="w-[60px] h-[60px] relative">
         <Image
           className="hover:scale-[1.1] duration-300 cursor-pointer"

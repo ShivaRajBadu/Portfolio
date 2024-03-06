@@ -14,7 +14,7 @@ const MainImage = ({
   borderColor?: string;
 }) => {
   const holderStyle = `bg-${holdersColor} w-[${width}px] h-[${height}px]`;
-  const borderStyle = ` border-${borderColor}`;
+  const borderStyle = `border-${borderColor}`;
   return (
     <div className=" relative my-6 ">
       <div className=" absolute top-0 bg-grey-800 z-10  w-[350px] h-[350px]"></div>
@@ -25,14 +25,8 @@ const MainImage = ({
         height={height}
         alt="profile"
       />
-      <div
-        style={{ width: width, height: height }}
-        className={`absolute -bottom-5 -right-5   ${holderStyle} `}
-      ></div>
-      <div
-        style={{ width: width, height: height }}
-        className={` absolute -top-5 -left-5   ${holderStyle} `}
-      ></div>
+      <div className={`absolute -bottom-5 -right-5   ${holderStyle} `}></div>
+      <div className={` absolute -top-5 -left-5   ${holderStyle} `}></div>
     </div>
   );
 };
