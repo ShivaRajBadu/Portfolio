@@ -34,6 +34,9 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  variants: {
+    aspectRatio: ["responsive", "hover"],
+  },
+  plugins: [require("@tailwindcss/aspect-ratio")],
 };
 export default config;

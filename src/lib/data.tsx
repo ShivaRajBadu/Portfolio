@@ -212,7 +212,7 @@ export const WebProjects = [
   {
     id: 7,
     projectName: "Fly over Water",
-    projectImage: "/projects/fly-over-wate.png",
+    projectImage: "/projects/fly-over-water.png",
     liveLink: "https://fly-over-water.vercel.app/",
     usedTech: ["NextJS", "ReactJS", "TailwindCSS"],
     description: "Clone website for Learning of Nextjs, Reactjs, Tailwindcss.",
@@ -255,7 +255,7 @@ export const WebProjects = [
   {
     id: 11,
     projectName: "Sitemap generator",
-    projectImage: "/project/sitemap.png",
+    projectImage: "/projects/sitemap.png",
     usedTech: ["NodeJs", "ExpressJs"],
     description:
       "Sitemap generator as name suggest is a tool which generate sitemap for website.",
@@ -265,7 +265,23 @@ export const MobileProject = [
   {
     id: 1,
     projectName: "Kinu shopping app",
-    projectImage: "/projects/height_comparison.png",
+    projectImage: "/projects/kinu/screen_13.jpg",
+    projectImages: [
+      "/projects/kinu/screen_1.jpg",
+      "/projects/kinu/screen_2.jpg",
+      "/projects/kinu/screen_3.jpg",
+      "/projects/kinu/screen_4.jpg",
+      "/projects/kinu/screen_5.jpg",
+      "/projects/kinu/screen_6.jpg",
+      "/projects/kinu/screen_7.jpg",
+      "/projects/kinu/screen_8.jpg",
+      "/projects/kinu/screen_9.jpg",
+      "/projects/kinu/screen_10.jpg",
+      "/projects/kinu/screen_11.jpg",
+      "/projects/kinu/screen_12.jpg",
+      "/projects/kinu/screen_13.jpg",
+      "/projects/kinu/screen_14.jpg",
+    ],
     usedTech: ["Flutter", "Clean Architecture", "flutter_bloc"],
     description:
       "Kinu is the video first e-commerce market place in Nepal. Any one can explore wide range of products through short videos. Kinu makes shopping fun and easy, empowering discovery.",
@@ -273,7 +289,15 @@ export const MobileProject = [
   {
     id: 2,
     projectName: "Byalarlink App",
-    projectImage: "/projects/height_comparison.png",
+    projectImage: "/projects/byaparlink/byaparlink_1.jpeg",
+    projectImages: [
+      "/projects/byaparlink/byaparlink_1.jpeg",
+      "/projects/byaparlink/byaparlink_2.jpeg",
+      "/projects/byaparlink/byaparlink_3.jpeg",
+      "/projects/byaparlink/byaparlink_4.jpeg",
+      "/projects/byaparlink/byaparlink_5.jpeg",
+      "/projects/byaparlink/byaparlink_6.jpeg",
+    ],
     usedTech: ["Flutter", "Clean Architecture", "Provider"],
     description:
       "Byalarlink is a e-commerce app which display the close proximity products and Restaurant details.Also allow user to order product and Food with fast delivery.",
@@ -281,12 +305,12 @@ export const MobileProject = [
   {
     id: 3,
     projectName: "Insta-wallaper",
-    projectImage: "/projects/insta.png",
+    projectImage: "/projects/insta.jpeg",
+    projectImages: ["/projects/insta.jpeg"],
     usedTech: ["Flutter"],
     description:
       "Insta-wallaper is a mobile which allow user to set mobile wallpaper directly from instagram photos.",
   },
-  {},
 ];
 
 export { dark, light };

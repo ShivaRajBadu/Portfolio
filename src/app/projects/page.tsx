@@ -1,7 +1,7 @@
-import React from "react";
+import { redirect } from "next/navigation";
 
-const Projects = () => {
-  return <div>all projects</div>;
+const ProjectsPage = () => {
+  redirect("/projects/web");
 };
 
-export default Projects;
+export default ProjectsPage;
