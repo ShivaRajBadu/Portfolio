@@ -23,7 +23,7 @@ const PagePreviewButton = ({
     <Image
       onClick={() => handleNavigation(link)}
       title="live preview"
-      className="cursor-pointer hover:scale-[1.15] duration-500 transition-transform"
+      className="cursor-pointer w-[20px] h-[20px] md:w-[30px] md:h-[30px] hover:scale-[1.15] duration-500 transition-transform"
       src={"/icons/link.png"}
       width={40}
       height={40}

@@ -13,7 +13,7 @@ const SectionTitle = ({
         {title}
       </p>
       {subTitle && (
-        <p className="text-xl py-4 font-semibold text-center text-grey-400">
+        <p className="text-lg sm:text-xl py-4 font-semibold text-center text-grey-400">
           {subTitle}
         </p>
       )}

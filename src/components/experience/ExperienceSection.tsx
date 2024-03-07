@@ -9,13 +9,13 @@ const ExperienceSection = () => {
   return (
     <div className="py-16 bg-grey-900">
       <Wrapper>
-        <div className="w-[80%] mx-auto">
+        <div className="w-full md:w-[95%] xl:w-[80%] mx-auto">
           <SectionTitle
             title="Experience"
             subTitle="Here is a summary of my experience"
           />
 
-          <div className="flex gap-8 py-16 flex-col">
+          <div className="flex px-2 sm:px-0 gap-8 py-16 flex-col">
             {ExperienceData.map((exp) => (
               <ExperienceCard key={exp.id} {...exp} />
             ))}

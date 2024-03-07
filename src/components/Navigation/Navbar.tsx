@@ -13,11 +13,11 @@ const Navbar = () => {
     <Wrapper>
       <div className="py-6 flex justify-between items-center md:border-none border-b border-grey-900">
         <div className="flex justify-between items-center w-full md:w-auto">
-          <h1 className="text-2xl font-bold font-roboto">
+          <Link href={"/"} className="text-2xl font-bold font-roboto">
             {"</"}
             <span className="text-highlight">{LOGOTEXT}</span>
             {">"}
-          </h1>
+          </Link>
           <button onClick={() => setIsOpen(!isOpen)} className="md:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"

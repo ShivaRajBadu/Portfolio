@@ -19,12 +19,14 @@ const MainPageProjectCategory = ({
 }) => {
   return (
     <div>
-      <h2 className="text-2xl font-semibold font-inter py-6">{title}</h2>
+      <h2 className="text-lg md:text-2xl font-semibold font-inter py-6">
+        {title}
+      </h2>
       <div
         style={{
-          gridTemplateColumns: "repeat(auto-fit,minmax(350px,1fr))",
+          gridTemplateColumns: "repeat(auto-fit,minmax(300px,1fr))",
         }}
-        className="grid gap-4 "
+        className="grid gap-4 px-2 "
       >
         {projects.map((project, index) => {
           if (index < 3) {

@@ -7,7 +7,7 @@ import GithubIcon from "../Icons/GithubIcon";
 
 const SocialLink = () => {
   return (
-    <div className="flex gap-8 items-center py-2 ">
+    <div className="flex gap-8 md:justify-start justify-center items-center py-2 ">
       {SOCIAL_LINKS.map((link) => (
         <Link
           key={link.id}

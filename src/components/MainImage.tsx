@@ -1,32 +1,54 @@
 import React from "react";
 import Image from "next/image";
+
 const MainImage = ({
   imgSrc,
   width = 350,
   height = 350,
-  holdersColor = "grey-600",
-  borderColor = "grey",
+  holdersColor,
+  showImageBackground = true,
+  borderColor = "grey-1",
 }: {
   imgSrc: string;
   width?: number;
   height?: number;
+  showImageBackground?: boolean;
   holdersColor?: string;
   borderColor?: string;
 }) => {
   const holderStyle = `bg-${holdersColor} w-[${width}px] h-[${height}px]`;
   const borderStyle = `border-${borderColor}`;
+
   return (
-    <div className=" relative my-6 ">
-      <div className=" absolute top-0 bg-grey-800 z-10  w-[350px] h-[350px]"></div>
+    <div className="relative my-6 sm:px-4  max-md:mx-auto">
+      {showImageBackground && (
+        <div className="absolute top-0 bg-gray-800 z-10 w-full h-full max-w-[345px] max-h-[350px]"></div>
+      )}
       <Image
-        className={`bg-inherit border-[6px] border-grey relative z-10 ${borderStyle}`}
+        className={`bg-inherit border-[6px]  relative mx-auto z-10 ${borderStyle}`}
         src={imgSrc}
         width={width}
         height={height}
         alt="profile"
       />
-      <div className={`absolute -bottom-5 -right-5   ${holderStyle} `}></div>
-      <div className={` absolute -top-5 -left-5   ${holderStyle} `}></div>
+      <div
+        style={{
+          maxWidth: width,
+          maxHeight: height,
+          width: "100%",
+          height: "100%",
+        }}
+        className={`absolute -bottom-2 right-2 sm:-bottom-5 sm:-right-1 ${holderStyle}`}
+      ></div>
+      <div
+        style={{
+          maxWidth: width,
+          maxHeight: height,
+          width: "100%",
+          height: "100%",
+        }}
+        className={`absolute -top-2 left-2 sm:-top-5 sm:-left-1 ${holderStyle}`}
+      ></div>
     </div>
   );
 };
