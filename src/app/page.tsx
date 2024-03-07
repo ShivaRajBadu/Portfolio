@@ -1,4 +1,5 @@
 import AboutMe from "@/components/AboutMe";
+import ContactMe from "@/components/Contact";
 
 import HeroSection from "@/components/HeroSection/HeroSection";
 import ExperienceSection from "@/components/experience/ExperienceSection";
@@ -13,6 +14,7 @@ export default function Home() {
       <SkillSection />
       <ExperienceSection />
       <WorkSection />
+      <ContactMe />
     </div>
   );
 }

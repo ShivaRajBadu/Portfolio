@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Roboto, Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navigation/Navbar";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const roboto = Roboto({
@@ -39,6 +40,7 @@ export default function RootLayout({
         {/* <ProfileInfo />
           <div className="h-full">{children}</div>
           <NavigationBar /> */}
+        <Footer />
       </body>
     </html>
   );

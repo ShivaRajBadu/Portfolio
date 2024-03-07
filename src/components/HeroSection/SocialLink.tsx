@@ -7,12 +7,13 @@ import GithubIcon from "../Icons/GithubIcon";
 
 const SocialLink = () => {
   return (
-    <div className="flex gap-8 items-center py-2">
+    <div className="flex gap-8 items-center py-2 ">
       {SOCIAL_LINKS.map((link) => (
         <Link
           key={link.id}
           href={link.link}
-          className="text-xl text-grey-500 hover:text-grey-50 duration-500 "
+          target="_blank"
+          className={`text-xl text-grey-500 hover:text-grey-50 duration-500 hover:scale-[1.1] `}
         >
           {/* <Image src={link.icon} width={30} height={30} alt="links" /> */}
           {link.label === "facebook" && <FacebookIcon />}

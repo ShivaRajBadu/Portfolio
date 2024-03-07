@@ -2,7 +2,7 @@ import React from "react";
 
 const FacebookIcon = ({ fillColor = "#ffffff" }: { fillColor?: string }) => {
   return (
-    <div className="w-10 h-10 hover:bg-grey-900 p-2 rounded-md">
+    <div className="w-10 h-10 hover:bg-grey-900  p-2 rounded-md">
       <svg
         width="40"
         height="40"
