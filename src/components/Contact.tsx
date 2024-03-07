@@ -6,7 +6,7 @@ import SocialLink from "./HeroSection/SocialLink";
 
 const ContactMe = () => {
   return (
-    <div className="py-16 bg-grey-900">
+    <div id="contact" className="py-16 bg-grey-900">
       <Wrapper>
         <div>
           <SectionTitle title="Contact Me" />
@@ -15,10 +15,10 @@ const ContactMe = () => {
             I am always open to discussing new projects, creative ideas or
             opportunities to be part of your visions.
           </p>
-          <h1 className=" pt-6 pb-4  text-xl sm:text-4xl md:text-5xl text-center font-bold text-grey-400 font-roboto flex gap-4 justify-center items-center">
+          <h1 className=" pt-6 pb-4  text-xl sm:text-3xl md:text-4xl text-center font-bold text-grey-400 font-roboto flex gap-4 justify-center items-center">
             <svg
               viewBox="0 0 8 6"
-              className="fill-grey-400 w-[20px] h-[20px] sm:w-[30px] sm:h-[30px] md:w-[40px] md:h-[40px]"
+              className="fill-grey-400 w-[20px] h-[20px] sm:w-[30px] sm:h-[30px] md:w-[35px] md:h-[35px]"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path d="M1.5 0C1.10218 0 0.720644 0.158035 0.43934 0.43934C0.158035 0.720644 0 1.10218 0 1.5V4.5C0 4.89782 0.158035 5.27936 0.43934 5.56066C0.720644 5.84196 1.10218 6 1.5 6H6.5C6.89782 6 7.27936 5.84196 7.56066 5.56066C7.84196 5.27936 8 4.89782 8 4.5V1.5C8 1.10218 7.84196 0.720644 7.56066 0.43934C7.27936 0.158035 6.89782 0 6.5 0H1.5ZM1 1.5C1 1.36739 1.05268 1.24021 1.14645 1.14645C1.24021 1.05268 1.36739 1 1.5 1H6.5C6.63261 1 6.75979 1.05268 6.85355 1.14645C6.94732 1.24021 7 1.36739 7 1.5V1.67L4 2.956L1 1.67V1.5ZM1 2.758L3.803 3.959C3.86525 3.98569 3.93227 3.99944 4 3.99944C4.06773 3.99944 4.13475 3.98569 4.197 3.959L7 2.758V4.5C7 4.63261 6.94732 4.75979 6.85355 4.85355C6.75979 4.94732 6.63261 5 6.5 5H1.5C1.36739 5 1.24021 4.94732 1.14645 4.85355C1.05268 4.75979 1 4.63261 1 4.5V2.758Z" />

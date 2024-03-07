@@ -9,7 +9,7 @@ import ViewAllButton from "./ViewAllButton";
 
 const WorkSection = () => {
   return (
-    <div className="py-16">
+    <div id="work" className="py-16">
       <Wrapper>
         <div>
           <SectionTitle

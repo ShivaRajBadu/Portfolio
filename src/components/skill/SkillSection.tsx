@@ -7,7 +7,7 @@ import SectionTitle from "../SectionTitle";
 
 const SkillSection = () => {
   return (
-    <div className="py-16">
+    <div id="skills" className="py-16">
       <Wrapper>
         <SectionTitle
           title="Skills"

@@ -16,7 +16,7 @@ const config: Config = {
       colors: {
         grey: {
           DEFAULT: "rgb(var(--background) / <alpha-value>)",
-          1: "rgb(var(--background))",
+
           50: "rgb(var(--app-gray-50) / <alpha-value>)",
           100: "rgb(var(--app-gray-100) / <alpha-value>)",
           200: "rgb(var(--app-gray-200) / <alpha-value>)",

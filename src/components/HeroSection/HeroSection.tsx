@@ -35,7 +35,7 @@ const HeroSection = () => {
           </div>
           <MainImage
             imgSrc={"/profile.png"}
-            borderColor="grey-1"
+            borderColor="grey"
             holdersColor="grey-700"
           />
         </div>

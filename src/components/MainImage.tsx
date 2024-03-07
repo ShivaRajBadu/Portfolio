@@ -7,7 +7,7 @@ const MainImage = ({
   height = 350,
   holdersColor,
   showImageBackground = true,
-  borderColor = "grey-1",
+  borderColor = "grey",
 }: {
   imgSrc: string;
   width?: number;
@@ -17,13 +17,14 @@ const MainImage = ({
   borderColor?: string;
 }) => {
   const holderStyle = `bg-${holdersColor} w-[${width}px] h-[${height}px]`;
-  const borderStyle = `border-${borderColor}`;
+  const borderStyle = `border-${borderColor} `;
 
   return (
     <div className="relative my-6 sm:px-4  max-md:mx-auto">
       {showImageBackground && (
         <div className="absolute top-0 bg-gray-800 z-10 w-full h-full max-w-[345px] max-h-[350px]"></div>
       )}
+      <p className="hidden border-grey"> </p>
       <Image
         className={`bg-inherit border-[6px]  relative mx-auto z-10 ${borderStyle}`}
         src={imgSrc}

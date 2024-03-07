@@ -9,22 +9,22 @@ export const MainDescription =
 
 export const NAV_LINK = [
   {
-    id: 1,
-    label: "About",
-    link: "#about",
-  },
-  {
     id: 2,
     label: "Work",
     link: "#work",
   },
   {
     id: 3,
+    label: "Skills",
+    link: "#skills",
+  },
+  {
+    id: 4,
     label: "Experience",
     link: "#experience",
   },
   {
-    id: 4,
+    id: 5,
     label: "Contact",
     link: "#contact",
   },

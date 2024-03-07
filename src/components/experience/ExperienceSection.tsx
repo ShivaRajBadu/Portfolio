@@ -7,7 +7,7 @@ import SectionTitle from "../SectionTitle";
 
 const ExperienceSection = () => {
   return (
-    <div className="py-16 bg-grey-900">
+    <div id="experience" className="py-16 bg-grey-900">
       <Wrapper>
         <div className="w-full md:w-[95%] xl:w-[80%] mx-auto">
           <SectionTitle
