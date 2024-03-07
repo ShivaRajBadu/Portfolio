@@ -7,7 +7,7 @@ const AboutSection = () => {
         About <span className="text-[color:var(--text-highlight)]">Me</span>
       </h1>
       <h3 className="text-[48px] font-bold text-[color:var(--white)]">
-        I'm someone who finds profound joy in the art of design and coding
+        I&apos;m someone who finds profound joy in the art of design and coding
       </h3>
       <p className="text-[24px] font-normal text-[color:var(--icon-color)]">
         With an unwavering passion for crafting beautiful and simple creations,

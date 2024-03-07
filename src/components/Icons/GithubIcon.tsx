@@ -2,7 +2,10 @@ import React from "react";
 
 const GithubIcon = ({ fillColor = "#ffffff" }: { fillColor?: string }) => {
   return (
-    <div className=" w-10 h-10 hover:bg-grey-900 p-2 rounded-md">
+    <div
+      aria-label="github"
+      className=" w-10 h-10 hover:bg-grey-900 p-2 rounded-md"
+    >
       <svg
         width="86"
         height="86"

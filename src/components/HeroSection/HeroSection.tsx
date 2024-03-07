@@ -13,16 +13,16 @@ const HeroSection = () => {
         <div className="flex justify-between gap-12 md:gap-3  flex-col md:flex-row  items-center ">
           <div className="w-full text-center md:text-start max-md:order-2 md:w-[50%]">
             <h1
-              className="text-4xl sm:text-6xl  font-bold font-inter py-2"
+              className="text-4xl sm:text-5xl lg:text-6xl  font-bold font-inter py-2"
               dangerouslySetInnerHTML={{ __html: MainTitle }}
             ></h1>
-            <p className="py-4 text-lg sm:text-xl text-grey-500 leading-8">
+            <p className="py-4 text-lg lg:text-xl text-grey-500 leading-8">
               {MainDescription}
             </p>
             <div className="flex gap-4   justify-center md:justify-start items-center pt-10">
               {/* location icon animation */}
               <div className="location"></div>
-              <h4 className="text-lg text-grey-500">Kathmandu, Nepal</h4>
+              <p className="text-lg text-grey-500">Kathmandu, Nepal</p>
             </div>
             <div className="flex gap-7 ml-2 justify-center md:justify-start items-center pt-1 pb-3">
               <div className="relative my-6">
