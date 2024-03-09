@@ -1,7 +1,13 @@
 import FullProjectCard from "@/components/projectsPage/FullProjectCard";
 
 import { MobileProject, WebProjects } from "@/lib/data";
+import { Metadata } from "next";
 import React from "react";
+
+export const metadata: Metadata = {
+  title: 'Projects',
+
+};
 
 const EachCategory = ({ params }: { params: { slug: string } }) => {
   if (params.slug === "web") {

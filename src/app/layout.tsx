@@ -12,8 +12,13 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Shiva Raj Badu - Portfolio",
-  description: "Frontend developer Portfolio by Shiva Raj Badu",
+  title: {
+    default: "Shiva Raj Badu | Portfolio",
+    template: "%s | Shiva Raj Badu",
+  },
+  description:
+    "Shiva Raj Badu - Frontend developer Portfolio site, developed with Next.js, React, and Tailwind CSS.",
+
   keywords: [
     "portfolio",
     "nextjs",
