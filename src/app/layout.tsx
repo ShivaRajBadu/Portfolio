@@ -3,7 +3,6 @@ import { Roboto, Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navigation/Navbar";
 import Footer from "@/components/Footer";
-import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const roboto = Roboto({
@@ -19,6 +18,27 @@ export const metadata: Metadata = {
   },
   description:
     "Shiva Raj Badu - Frontend developer Portfolio site, developed with Next.js, React, and Tailwind CSS.",
+  openGraph: {
+    title: "Shiva Raj Badu | Portfolio",
+    description:
+      "Shiva Raj Badu - Frontend developer Portfolio site, developed with Next.js, React, and Tailwind CSS.",
+    url: "shivarajbadu.com.np",
+    siteName: "Shiva Raj Badu",
+    images: [
+      {
+        url: "/profile.png",
+        width: 360,
+        height: 450,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Shiva Raj Badu | Portfolio",
+    description:
+      "Shiva Raj Badu - Frontend developer Portfolio site, developed with Next.js, React, and Tailwind CSS.",
+    images: ["/profile.png"],
+  },
 
   keywords: [
     "portfolio",
@@ -40,22 +60,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
-        <meta property="og:title" content="Shiva raj badu | Portfolio" />
-        <meta
-          property="og:description"
-          content="Shiva Raj Badu - Frontend developer Portfolio site, developed with Next.js, React, and Tailwind CSS."
-        />
-        <meta property="og:image" content="/profile.png" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Shiva raj badu | Portfolio" />
-        <meta
-          name="twitter:description"
-          content="Shiva Raj Badu - Frontend developer Portfolio site, developed with Next.js, React, and Tailwind CSS."
-        />
-        <meta name="twitter:image" content="/profile.png" />
-      </Head>
-
       <body className={`${inter.variable} ${roboto.variable}`}>
         <Navbar />
         {children}
