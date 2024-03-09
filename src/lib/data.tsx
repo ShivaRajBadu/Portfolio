@@ -38,7 +38,7 @@ export const SOCIAL_LINKS = [
   {
     id: 2,
     label: "linkedin",
-    link: "https://www.linkedin.com/in/shiva-raj-badu-3b7b8b1b4/",
+    link: "https://www.linkedin.com/in/shiva-raj-badu-082b33188/",
   },
   {
     id: 3,
