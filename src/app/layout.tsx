@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     siteName: "Shiva Raj Badu",
     images: [
       {
-        url: "/profile.png",
+        url: "https://portfolio-git-main-shivarajbadu.vercel.app/profile.png",
         width: 360,
         height: 450,
       },
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     title: "Shiva Raj Badu | Portfolio",
     description:
       "Shiva Raj Badu - Frontend developer Portfolio site, developed with Next.js, React, and Tailwind CSS.",
-    images: ["/profile.png"],
+    images: ["https://portfolio-git-main-shivarajbadu.vercel.app/profile.png"],
   },
 
   keywords: [
