@@ -3,6 +3,7 @@ import { Roboto, Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navigation/Navbar";
 import Footer from "@/components/Footer";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const roboto = Roboto({
@@ -39,6 +40,22 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        <meta property="og:title" content="Shiva raj badu | Portfolio" />
+        <meta
+          property="og:description"
+          content="Shiva Raj Badu - Frontend developer Portfolio site, developed with Next.js, React, and Tailwind CSS."
+        />
+        <meta property="og:image" content="/profile.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Shiva raj badu | Portfolio" />
+        <meta
+          name="twitter:description"
+          content="Shiva Raj Badu - Frontend developer Portfolio site, developed with Next.js, React, and Tailwind CSS."
+        />
+        <meta name="twitter:image" content="/profile.png" />
+      </Head>
+
       <body className={`${inter.variable} ${roboto.variable}`}>
         <Navbar />
         {children}
