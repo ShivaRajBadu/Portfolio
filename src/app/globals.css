@@ -10,7 +10,7 @@
   --border-color: rgba(255, 255, 255, 0.2);
 } */
 
-:root {
+/* :root {
   --text-highlight: #ff5c00;
   --backround: 255 255 255;
   --app-gray-950: 249 250 251;
@@ -24,16 +24,16 @@
   --app-gray-200: 31 41 55;
   --app-gray-100: 17 24 39;
   --app-gray-50: 3 7 18;
-}
+} */
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    /* --background: #1d1c1d;
+/* @media (prefers-color-scheme: dark) {
+  :root { */
+/* --background: #1d1c1d;
     --text-light: #ffffff;
     --text-highlight: #ff5c00;
     --icon-color: #7d7373;
     --border-color: rgba(255, 255, 255, 0.2); */
-    --text-highlight: #ff5c00;
+/* --text-highlight: #ff5c00;
     --background: 3 7 18;
     --app-gray-950: 17 24 39;
     --app-gray-900: 31 41 55;
@@ -47,6 +47,26 @@
     --app-gray-100: 249 250 251;
     --app-gray-50: 255 255 255;
   }
+} */
+:root {
+  /* --background: #1d1c1d;
+    --text-light: #ffffff;
+    --text-highlight: #ff5c00;
+    --icon-color: #7d7373;
+    --border-color: rgba(255, 255, 255, 0.2); */
+  --text-highlight: #ff5c00;
+  --background: 3 7 18;
+  --app-gray-950: 17 24 39;
+  --app-gray-900: 31 41 55;
+  --app-gray-800: 55 65 81;
+  --app-gray-700: 75 85 99;
+  --app-gray-600: 107 114 128;
+  --app-gray-500: 156 163 175;
+  --app-gray-400: 209 213 219;
+  --app-gray-300: 229 231 235;
+  --app-gray-200: 243 244 246;
+  --app-gray-100: 249 250 251;
+  --app-gray-50: 255 255 255;
 }
 
 body {
