@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://portfolio-git-main-shivarajbadu.vercel.app/sitemap.xml",
+    sitemap: "https://shivarajbadu.com.np/sitemap.xml",
   };
 }

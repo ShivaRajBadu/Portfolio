@@ -3,43 +3,43 @@ import { MetadataRoute } from "next";
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: "https://portfolio-git-main-shivarajbadu.vercel.app/",
+      url: "https://shivarajbadu.com.np/",
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 1,
     },
     {
-      url: "https://portfolio-git-main-shivarajbadu.vercel.app/projects/web",
+      url: "https://shivarajbadu.com.np/projects/web",
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 0.8,
     },
     {
-      url: "https://portfolio-git-main-shivarajbadu.vercel.app/projects/mobile",
+      url: "https://shivarajbadu.com.np/projects/mobile",
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 0.8,
     },
     {
-      url: "https://portfolio-git-main-shivarajbadu.vercel.app/#about",
+      url: "https://shivarajbadu.com.np/#about",
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 0.8,
     },
     {
-      url: "https://portfolio-git-main-shivarajbadu.vercel.app/#skills",
+      url: "https://shivarajbadu.com.np/#skills",
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 0.8,
     },
     {
-      url: "https://portfolio-git-main-shivarajbadu.vercel.app/#contact",
+      url: "https://shivarajbadu.com.np/#contact",
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 0.8,
     },
     {
-      url: "https://portfolio-git-main-shivarajbadu.vercel.app/#experience",
+      url: "https://shivarajbadu.com.np/#experience",
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 0.8,
