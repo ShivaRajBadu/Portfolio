@@ -63,6 +63,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <meta
+        name="google-site-verification"
+        content="Ltx8Hhup4SW-ViWKxRZUizC1suThX327q9FrFUMx2SE"
+      />
       <body className={`${inter.variable} ${roboto.variable}`}>
         {/* <MouseFollower /> */}
         <AnimatedCursor
