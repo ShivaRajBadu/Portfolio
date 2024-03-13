@@ -48,7 +48,10 @@ const NavDrawer = ({
         </div>
 
         <div className="flex  justify-between py-2">
-          <button className="  bg-grey-50 text-grey-900 font-semibold px-4 py-2 rounded-md hover:bg-grey-300 duration-500">
+          <button
+            onClick={() => window.open("/resume.pdf", "_blank")}
+            className="  bg-grey-50 text-grey-900 font-semibold px-4 py-2 rounded-md hover:bg-grey-300 duration-500"
+          >
             Download CV
           </button>
           <ThemeSwitcher />
