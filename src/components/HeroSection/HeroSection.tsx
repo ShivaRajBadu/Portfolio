@@ -11,12 +11,12 @@ const HeroSection = () => {
     <div className="md:h-[75vh] grid place-content-center px-4 py-14 md:py-0">
       <Wrapper>
         <div className="flex justify-between gap-12 md:gap-3  flex-col md:flex-row  items-center ">
-          <div className="w-full text-center md:text-start max-md:order-2 md:w-[50%]">
+          <div className="w-full text-center md:text-start  md:w-[50%]">
             <h1
-              className="text-4xl sm:text-5xl lg:text-6xl  font-bold font-inter py-2"
+              className="text-5xl lg:text-6xl  font-bold font-inter py-2"
               dangerouslySetInnerHTML={{ __html: MainTitle }}
             ></h1>
-            <p className="py-4 text-lg lg:text-xl text-grey-500 leading-8">
+            <p className="py-4 text-lg lg:text-xl text-grey-500 max-md:max-w-[450px] leading-8">
               {MainDescription}
             </p>
             <div className="flex gap-4   justify-center md:justify-start items-center pt-10">

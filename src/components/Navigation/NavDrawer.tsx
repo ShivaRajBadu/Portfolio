@@ -38,6 +38,7 @@ const NavDrawer = ({
         <div className="flex flex-col gap-4 justify-center  border-y border-grey-600 my-4 py-4">
           {NAV_LINK.map((link) => (
             <Link
+              onClick={() => setIsOpen(false)}
               key={link.id}
               href={link.link}
               className="text-xl font-medium font-inter text-grey-500 hover:text-grey-50 duration-500 "

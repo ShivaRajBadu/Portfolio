@@ -22,7 +22,7 @@ const MainImage = ({
   return (
     <div className="relative my-6 sm:px-4  max-lg:mx-auto">
       {showImageBackground && (
-        <div className="absolute top-0 bg-gray-800 z-10 w-full h-full md:w-[90%] md:h-[95%] lg:w-full lg:w-full max-w-[345px] max-h-[350px]"></div>
+        <div className="absolute top-0 bg-gray-800 z-10 w-full h-full md:w-[90%] md:h-[95%] lg:w-full max-w-[345px] max-h-[350px]"></div>
       )}
       <p className="hidden border-grey"> </p>
       <Image
