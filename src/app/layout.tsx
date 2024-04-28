@@ -19,6 +19,9 @@ export const metadata: Metadata = {
     default: "Shiva Raj Badu | Portfolio",
     template: "%s | Shiva Raj Badu",
   },
+  alternates: {
+    canonical: "https://shivarajbadu.com.np",
+  },
   description:
     "Shiva Raj Badu - Frontend developer Portfolio site, developed with Next.js, React, and Tailwind CSS.",
   openGraph: {
