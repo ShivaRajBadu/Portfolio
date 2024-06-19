@@ -15,12 +15,32 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://shivarajbadu.com.np"),
   title: {
     default: "Shiva Raj Badu | Portfolio",
     template: "%s | Shiva Raj Badu",
   },
   alternates: {
     canonical: "https://shivarajbadu.com.np",
+    languages: {
+      en: "https://shivarajbadu.com.np",
+    },
+  },
+  creator: "Shiva Raj Badu",
+  authors: {
+    name: "Shiva Raj Badu",
+    url: "https://shivarajbadu.com.np",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
   description:
     "Shiva Raj Badu - Frontend developer Portfolio site, developed with Next.js, React, and Tailwind CSS.",
@@ -56,6 +76,9 @@ export const metadata: Metadata = {
     "frontend developer",
     "developer",
     "Shiva raj badu",
+    "flutter developer",
+    "flutter",
+    "mobile developer",
   ],
 };
 
