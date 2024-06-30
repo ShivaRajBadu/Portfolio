@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 import MouseFollower from "@/components/MouseFollower";
 import AnimatedCursor from "react-animated-cursor";
 import { Analytics } from "@vercel/analytics/react";
-
+import { SpeedInsights } from "@vercel/speed-insights/next";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const roboto = Roboto({
   subsets: ["latin"],
@@ -114,6 +114,7 @@ export default function RootLayout({
           <div className="h-full">{children}</div>
           <NavigationBar /> */}
         <Footer />
+        <SpeedInsights />
         <Analytics />
       </body>
     </html>
